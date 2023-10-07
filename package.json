@@ -1,0 +1,25 @@
+{
+  "name": "json-solver",
+  "description": "Está é uma prova de conceito da capacidade de gerar um json a partir de uma chamada http.",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js",
+    "test": "jest --coverage",
+    "db:migrate": "node src/model/db.js",
+    "db:clear": "node src/model/clear.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
